@@ -1,19 +1,11 @@
 # HikeClone
 
-### This is a UI clone of Hike messenger app. It is made from scratch for _Google Udacity Scholarship's_ **Copy Layout Challenge**. In this competition, we have to select any popular application and try to recreate an exact replica of the layout.
+This is a Layout clone of Hike messenger app. It is made from scratch for _Google Udacity Scholarship's_ **Copy Layout Challenge**. In this competition, we have to select any popular application and try to recreate an exact replica of the layout.
 
-## Screenshots
-#### Overview
+## Video : [Click here (LinkedIn)](https://www.linkedin.com/feed/update/urn:li:activity:6386974796722335744)
+
+## Screenshot :
 ![HikeClone](screenshots/HikeClone.jpg)
-
-#### Splash screen
-![Splash Screen](screenshots/1.jpeg)
-
-#### Chats
-![Chats](screenshots/2.jpeg)
-
-#### My Profile
-![My Profile](screenshots/3.jpeg)
 
 ----------------------------------------------
 
