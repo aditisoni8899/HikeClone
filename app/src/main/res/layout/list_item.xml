@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/aditi_actor"
+        android:id="@+id/image" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image"
+        android:id="@+id/text_container">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        tools:text="Aditi Soni"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="bottom" />
+
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        tools:text="Aditi"
+                        android:textSize="12sp"
+                        android:text="23 hrs"
+                        android:textColor="@color/onpressed"
+                        android:layout_weight="1"
+                        android:gravity="bottom|right"
+                        android:layout_gravity="right" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/chatline"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="top"
+            tools:text="one"
+            android:textColor="@color/yourinactivecolor" />
+
+      <TextView
+          android:layout_width="22dp"
+          android:layout_height="18dp"
+          android:text="@string/string"
+          android:padding="2dp"
+          android:gravity="center"
+          android:textSize="10sp"
+          android:fontFamily="sans-serif"
+          android:textColor="@android:color/white"
+          android:background="@drawable/tv_shape"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

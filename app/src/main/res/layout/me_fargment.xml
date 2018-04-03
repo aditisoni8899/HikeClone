@@ -1,0 +1,251 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingTop="4dp"
+    android:paddingRight="4dp"
+    android:gravity="center"
+    tools:context=".Fragment.TimeLine">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/aditi"
+            android:id="@+id/image" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/image"
+            android:id="@+id/text_container">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="8dp"
+                tools:text="Aditi Soni"
+                android:text="Aditi Soni"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="bottom" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/chatline"
+                    android:layout_width="0dp"
+                    android:textColor="#e4f0fdfc"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:fontFamily="monospace"
+                    android:text="+919000007908"
+                    tools:text="+91 9000007908" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:tint="@android:color/white"
+                    android:src="@drawable/ic_arrow_grey"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/fragment_bg"
+        >
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:showDividers="middle"
+            android:divider="?android:listDivider"
+            android:dividerPadding="16dp">>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_reg_friends"
+                    />
+
+                <TextView
+                    android:id="@+id/text_verb1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Friends"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|left"
+                    android:layout_height="match_parent" />
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow_grey"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:padding="22dp"
+                    android:src="@drawable/ic_reg_wallet"
+                    />
+
+                <TextView
+                    android:id="@+id/text_verb2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Wallet"
+                    android:paddingLeft="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|left"
+                    android:layout_height="match_parent" />
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow_grey"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_reg_stickers"
+                    />
+
+                <TextView
+                    android:id="@+id/text_verb3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Sticker Shop"
+                    android:paddingLeft="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|left"
+                    android:layout_height="match_parent" />
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow_grey"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_reg_services"
+                    />
+
+                <TextView
+                    android:id="@+id/text_verb4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Services"
+                    android:paddingLeft="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center|left"
+                    android:layout_height="match_parent" />
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="4dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow_grey"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

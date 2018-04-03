@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CloneChallangeUdacity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottomnav_title_0">Timeline</string>
+    <string name="bottomnav_title_1">Chat</string>
+    <string name="bottomnav_title_2">Me</string>
+    <string name="string">1+</string>
+</resources>
